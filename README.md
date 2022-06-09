@@ -1,6 +1,6 @@
 # Learn to climb: teaching a reinforcement learning agent the single rope ascending technique
 
-Mujoco environment for a humanoid ascending a multibody rope, modeling the single rope climbing technique. The emvironment is used to teach a Soft-Actor-Critic reinforcement learning agent. 
+Mujoco environment for a humanoid ascending a multibody rope, modeling the single rope climbing technique. The environment is used to teach a Soft-Actor-Critic reinforcement learning agent. 
 The agent is borrowed from: https://github.com/pranz24/pytorch-soft-actor-critic
 
 The environment is based on the [Humanoid-v2 OpenAI gym environment](https://github.com/openai/gym/blob/master/gym/envs/mujoco/humanoid_v4.py). It is extended with a multibody rope and the climbing gear. The multibody model consists of 123 bodies, and has 245 DoFs.
